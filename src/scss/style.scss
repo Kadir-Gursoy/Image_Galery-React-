@@ -1,0 +1,16 @@
+@import "./reset";
+div.card {
+  .img-div {
+    overflow: hidden;
+  }
+
+  img {
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    height: 100%;
+
+    &:hover {
+      transform: scale(1.25);
+    }
+  }
+}
