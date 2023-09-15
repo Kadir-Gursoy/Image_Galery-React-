@@ -8,7 +8,7 @@ const Card = ({ data }) => {
       {data.map((item, index) => {
         return (
           <div className="card mt-4" key={index} style={{ width: "400px" }}>
-            <div className="img-div" style={{ height: "40vh" }}>
+            <div className="img-div" style={{ height: "50vh" }}>
               <img src={item.src.large} className="card-img-top" alt="..." />
             </div>
 
