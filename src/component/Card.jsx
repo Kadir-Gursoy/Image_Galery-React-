@@ -4,11 +4,11 @@ import "../scss/style.scss";
 const Card = ({ data }) => {
   //   console.log(data[0].src.large);
   return (
-    <div className="d-flex flex-wrap gap-3 justify-content-center container-fluid">
+    <div className="d-flex flex-wrap gap-4 justify-content-center container-fluid">
       {data.map((item, index) => {
         return (
-          <div className="card mt-4" key={index} style={{ width: "400px" }}>
-            <div className="img-div" style={{ height: "50vh" }}>
+          <div className="card mt-5" key={index} style={{ width: "400px" }}>
+            <div className="img-div" style={{ height: "60vh" }}>
               <img src={item.src.large} className="card-img-top" alt="..." />
             </div>
 
