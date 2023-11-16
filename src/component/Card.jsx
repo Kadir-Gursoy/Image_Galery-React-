@@ -7,7 +7,7 @@ const Card = ({ data }) => {
     <div className="d-flex flex-wrap gap-4 justify-content-center container-fluid">
       {data.map((item, index) => {
         return (
-          <div className="card mt-5" key={index} style={{ width: "400px" }}>
+          <div className="card mt-4" key={index} style={{ width: "300px" }}>
             <div className="img-div" style={{ height: "60vh" }}>
               <img src={item.src.large} className="card-img-top" alt="..." />
             </div>
